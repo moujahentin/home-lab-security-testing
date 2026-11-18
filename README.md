@@ -191,6 +191,10 @@ These items are **planned**, not represented as completed:
 - [ ] Expand structured write-ups as new TryHackMe and lab exercises are completed.
 - [ ] Maintain a separate private inventory of hosts, exact settings and recovery procedures.
 
+## TryHackMe profile
+
+[TryHackMe — moujahentin](https://tryhackme.com/p/moujahentin) — public learning profile. Training notes in this repository describe observed exercises; room completion counts, badges and ranking are not claimed here until independently verified against the profile.
+
 ## Related public work
 
 - [GitHub profile / portfolio](https://github.com/moujahentin)
