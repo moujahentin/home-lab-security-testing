@@ -38,6 +38,8 @@ These are **completed learning activities**, not claims of professional penetrat
 
 **Concepts:** Linux hardening, SSH, systemd journal, detection engineering, defensive validation.
 
+**New verification (2026-11-18):** Audited a second, Ubuntu-based host and discovered that its initial Fail2ban nftables action targeted the default SSH service alias while SSH itself listened on a different, custom port. Applied a local jail override and confirmed the effective action port now matches the listener. The SSH jail is active; no real ban test has yet been performed. See the [sanitized two-host audit evidence](evidence/ssh-hardening-fail2ban-2026-11-18.md).
+
 ## 3. LAN discovery and controlled traffic experiments
 
 **Environment:** Kali Linux, Bettercap and owned LAN endpoints.
