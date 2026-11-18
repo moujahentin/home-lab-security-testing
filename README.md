@@ -50,6 +50,10 @@ The diagram shows **functional relationships**, not live IP addresses, firewall 
 
 **DNS filtering evidence (2026-11-18):** In one 24-hour AdGuard Home dashboard snapshot, **7,065 DNS requests** were recorded, **935** blocked by filters (**13.23%**), with an average displayed processing time of **5 ms**. These are observed dashboard metrics, not verified malicious-threat counts. [Read the sanitized evidence](docs/evidence/adguard-dns-filtering-2026-11-18.md).
 
+![Cropped real AdGuard Home dashboard: 7,065 queries, 935 blocked by filters in 24 hours](assets/adguard-dashboard-public-2026-11-18.png)
+
+*Actual dashboard crop: address bar, client IPs, client list and queried-domain panels omitted.*
+
 ## Projects and implemented work
 
 ### 01 — Build and operate a low-power Linux homelab
