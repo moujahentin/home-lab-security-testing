@@ -199,6 +199,9 @@ These are dated values transcribed from profile/dashboard screenshots supplied b
 
 **[Profile achievements and evidence limitations](docs/evidence/tryhackme-profile-2026-11-18.md)** · [Training activity log](docs/tryhackme-learning.md)
 
+<img src="assets/tryhackme-profile-evidence-2026-11-18.png" width="520" alt="Dated cropped TryHackMe profile rankings, level and eight earned badges" />
+
+
 ## Related public work
 
 - [GitHub profile / portfolio](https://github.com/moujahentin)
