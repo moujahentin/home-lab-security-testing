@@ -4,6 +4,12 @@
 **Evidence date:** 2026-11-18  
 **Source:** Five screenshots supplied by the profile owner (profile, badges dialog, dashboard and learning roadmap). This is a **dated snapshot**, not a live feed or independently authenticated TryHackMe API export.
 
+## Cropped source screenshots
+
+![Cropped official TryHackMe profile, dashboard counters and earned badges, dated 2026-11-18](../../assets/tryhackme-profile-evidence-2026-11-18.png)
+
+*This image combines cropped excerpts of the five screenshots supplied by the profile owner. The screenshots were cropped to exclude browser tabs, navigation details and unrelated content. The statistics and badges were not altered. The result is a dated evidence collage, not a live TryHackMe widget.*
+
 ## Profile statistics visible in the screenshots
 
 | Metric | Visible value | Interpretation |
