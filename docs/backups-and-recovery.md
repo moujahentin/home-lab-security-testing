@@ -56,6 +56,8 @@ flowchart LR
 
 A manually executed backup on **2026-11-18** reported `SQLite integrity: ok`, `0 differences found`, `1 matching files`, and successful completion. The identifiers have been redacted in the [verification transcript](evidence/uptime-kuma-backup-verification-2026-11-18.md). This is evidence of a successful backup-and-compare run, **not** a tested full restore.
 
+The [systemd timer audit](evidence/systemd-automation-audit-2026-11-18.md) also shows that the daily Uptime Kuma timer and hourly LastZ BETA timer were both enabled and active, with their latest recorded oneshot services returning success. This is scheduling/execution evidence, separate from backup content verification.
+
 ## Recovery status
 
 **Completed:** automated snapshots, database integrity checks, encrypted remote upload, and remote verification.
