@@ -1,5 +1,8 @@
 # TryHackMe learning log — verified scope and current evidence
 
+**Public training profile:** [tryhackme.com/p/moujahentin](https://tryhackme.com/p/moujahentin). The official profile URL was supplied by the account owner on 2026-11-18. Public profile statistics and the complete room list could not be independently retrieved in this documentation pass; therefore no totals or extra completion claims are inferred.
+
+
 This page summarizes **hands-on learning activities discussed during lab sessions**. It is not a complete export of the TryHackMe account. Individual task completion, room completion and practical exploration are deliberately distinguished. Screenshots or a public profile link would be needed to validate the full list of completed rooms and earned badges.
 
 | Lab / subject | What was practiced | Evidence-backed status |
