@@ -65,7 +65,7 @@ These are **completed learning activities**, not claims of professional penetrat
 - Reconnaissance of a deliberately vulnerable Windows machine.
 - Exploitation of the MS17-010 vulnerability in the lab.
 - Post-exploitation activities using a Meterpreter session.
-- Privilege and process inspection, credential-hash access and completion of the room objectives.
+- Privilege and process inspection and an observed `NT AUTHORITY\\SYSTEM` context. A complete room badge or finished credential-dumping objective has not been independently verified.
 
 **What I learned**
 - Why exploitation depends on the target's actual operating system and patch state.
@@ -99,4 +99,4 @@ This was a training exercise, not evidence that the same technique works against
 
 Detailed raw logs, real network identifiers, account names, tokens and packet captures are **not published**. Future screenshots will be reviewed for sensitive metadata before inclusion.
 
-[See architecture](architecture.md) · [See monitoring](monitoring.md) · [Back to README](../README.md)
+[TryHackMe learning log — additional rooms and progress](tryhackme-learning.md) · [See architecture](architecture.md) · [See monitoring](monitoring.md) · [Back to README](../README.md)
