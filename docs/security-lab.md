@@ -21,18 +21,18 @@ These are **completed learning activities**, not claims of professional penetrat
 
 **Concepts:** asset discovery, service enumeration, SMB exposure, anonymous access, evidence validation.
 
-## 2. SSH hardening and Fail2ban validation
+## 2. SSH hardening and Fail2ban configuration review
 
 **Environment:** the Armbian node and authorized lab test clients.
 
 **What I did**
 - Configured hardened SSH access, including disabled root login and disabled password authentication on the Armbian node.
 - Enabled a Fail2ban SSH jail backed by systemd journal events.
-- Performed controlled failed-login tests from a lab client.
-- Confirmed that repeated failures appeared in the logs and triggered a Fail2ban ban.
+- Reviewed SSH authentication logs in authorized lab testing, including controlled failed-login attempts.
+- Confirmed the SSH service and Fail2ban SSH jail were active; available jail status showed zero bans at the time of checking. A full ban-trigger test remains to be documented.
 
 **What I learned**
-- Enforcement must be **tested**, not inferred from a configuration file.
+- Enforcement must be **tested**, not inferred from a configuration file. The current evidence validates configuration and active services, **not** an actual ban.
 - Logs, authentication settings and ban decisions are separate verification points.
 - Fail2ban is a defensive layer; it does not replace sound SSH authentication or network access controls.
 
