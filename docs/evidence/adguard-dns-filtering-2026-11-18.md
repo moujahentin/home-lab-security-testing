@@ -17,6 +17,12 @@
 
 The numbers come from the owner-supplied dashboard screenshot. The 935 filter hits represent **blocked DNS requests**, not 935 distinct threats or confirmed malicious hosts. Likewise, a zero malware/phishing-specific counter is **not** evidence that no malicious domains were queried.
 
+## Redacted screenshot evidence
+
+![Privacy-safe crop of a real AdGuard Home dashboard showing aggregate 24-hour DNS and filtering metrics](../../assets/adguard-dashboard-public-2026-11-18.png)
+
+*This is a crop of the actual owner-supplied dashboard, not a simulated dashboard. The browser URL, individual client addresses and query/domain panels are outside the crop. The displayed 24-hour statistics are the original observed values.*
+
 ## Implementation context
 
 - AdGuard Home runs as a DNS filtering service on an always-on Armbian device.
