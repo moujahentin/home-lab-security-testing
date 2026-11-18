@@ -81,6 +81,12 @@ This work also involved troubleshooting the difference between monitor state, gr
 
 **Case study:** [Monitoring and reliability](docs/monitoring.md)
 
+**Redacted dashboard evidence (Uptime Kuma):**
+
+![Sanitized Uptime Kuma dashboard showing the two Linux host groups and service monitors healthy at the time of capture](assets/uptime-kuma-dashboard-redacted.png)
+
+*Actual homelab screenshot with browser address bar and a private host alias removed. The 100% values reflect the displayed measurement window at capture time, not a long-term uptime guarantee.*
+
 ### 03 — Verified, encrypted off-site backups
 
 Built scheduled backup workflows for selected stateful workloads on the ARM node.
