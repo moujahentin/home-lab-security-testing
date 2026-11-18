@@ -74,6 +74,8 @@ These are **completed learning activities**, not claims of professional penetrat
 
 This was a training exercise, not evidence that the same technique works against arbitrary modern systems.
 
+**Achievement evidence update (2026-11-18):** The user's TryHackMe profile screenshot displays the **Blue** badge as unlocked. See [TryHackMe profile evidence](evidence/tryhackme-profile-2026-11-18.md). This confirms the badge, not any unverified extra steps or external testing outcome.
+
 ## 5. Suspicious website / phishing-flow investigation
 
 **Environment:** browser developer tools and network-level observations of a suspicious web flow.
