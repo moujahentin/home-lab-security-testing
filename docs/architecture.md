@@ -60,6 +60,10 @@ Monitoring traffic and administrative access use private networking where approp
 
 A monitoring system running on one node can lose visibility if that node itself fails. An **external heartbeat exists for the Armbian node**; the Ubuntu node is monitored by Uptime Kuma, without claiming an additional independent cloud check.
 
+## Operational DNS evidence
+
+A dated [AdGuard Home dashboard evidence note](evidence/adguard-dns-filtering-2026-11-18.md) records aggregate 24-hour query and filter counts from selected clients without publishing individual client addresses or browsing-related domain statistics.
+
 ## What is intentionally excluded
 
 - Real internal or overlay IPs, DNS zones and host-specific network maps
