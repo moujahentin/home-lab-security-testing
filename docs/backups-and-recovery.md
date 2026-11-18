@@ -52,6 +52,10 @@ flowchart LR
 - Verification before treating a newly created archive as complete.
 - Backup execution and failure handling visible through systemd/journald.
 
+## Real execution evidence
+
+A manually executed backup on **2026-11-18** reported `SQLite integrity: ok`, `0 differences found`, `1 matching files`, and successful completion. The identifiers have been redacted in the [verification transcript](evidence/uptime-kuma-backup-verification-2026-11-18.md). This is evidence of a successful backup-and-compare run, **not** a tested full restore.
+
 ## Recovery status
 
 **Completed:** automated snapshots, database integrity checks, encrypted remote upload, and remote verification.
