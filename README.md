@@ -129,10 +129,10 @@ Used **Bettercap** for local discovery and target-scoped ARP-spoofing experiment
 - **SSH / Fail2ban:** compared the configurations of two Linux hosts, discovered a mismatch between a non-default SSH listener and the Fail2ban nftables action, corrected the jail setting, and verified the effective action port. No end-to-end ban has yet been demonstrated.
 
   **Evidence:** [Two-host SSH hardening and Fail2ban configuration audit (2026-11-18)](docs/evidence/ssh-hardening-fail2ban-2026-11-18.md)
-- **TryHackMe — Blue:** completed a purpose-built Windows exploitation exercise involving MS17-010, initial access and post-exploitation tasks in the training environment.
+- **TryHackMe training:** practiced Blue / MS17-010 (including a SYSTEM-level context in the lab), Active Directory OU/GPO/delegation tasks, Windows administration, Telnet/web-service investigation, OSINT and SSTI exploration. Official completion status differs by exercise and is documented separately.
 - **Suspicious web-flow analysis:** inspected DNS, HTTP redirects, TLS behavior and browser API requests while distinguishing actual observations from unverified claims about data submission.
 
-**Security lab notes:** [docs/security-lab.md](docs/security-lab.md)
+**Security lab notes:** [docs/security-lab.md](docs/security-lab.md) · **[TryHackMe activity inventory](docs/tryhackme-learning.md)**
 
 ---
 
@@ -176,6 +176,7 @@ For the public documentation rules and screenshot-redaction checklist, see [Publ
 |---|---|
 | [Architecture](docs/architecture.md) | Components, logical network flows, boundaries and scope |
 | [Security lab](docs/security-lab.md) | Practical tests, observations, limitations and lessons |
+| [TryHackMe learning](docs/tryhackme-learning.md) | Training-room exercises, verified task progress and completion caveats |
 | [Monitoring](docs/monitoring.md) | Live checks, push monitoring, alerts and failure domains |
 | [Backups & recovery](docs/backups-and-recovery.md) | Verified encrypted backup pipeline and restore plan |
 | [Publication safety](docs/publication-safety.md) | What can be shared without exposing private systems |
