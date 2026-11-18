@@ -60,6 +60,12 @@ This taught me to distinguish:
 
 For operational reporting, genuine failures should be preserved rather than erased to make a dashboard look green. The right long-term approach is to interpret status windows and initialization behavior correctly.
 
+## Dashboard evidence
+
+![Redacted live Uptime Kuma dashboard](../assets/uptime-kuma-dashboard-redacted.png)
+
+*Screenshot from a running deployment. The browser URL and a private host alias have been removed before publication. Green status and 100% figures describe the displayed snapshot/window only, not an uptime SLA.*
+
 ## What I verified
 
 - The Uptime Kuma process could start via systemd and serve its interface.
