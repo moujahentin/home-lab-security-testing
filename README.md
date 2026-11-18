@@ -126,7 +126,9 @@ Used **Bettercap** for local discovery and target-scoped ARP-spoofing experiment
 
 ### 06 — Defensive testing and security investigations
 
-- **SSH / Fail2ban:** hardened SSH settings and verified the Fail2ban SSH jail is enabled; controlled failed logins have been observed in lab logs, but a confirmed Fail2ban ban has not yet been evidenced.
+- **SSH / Fail2ban:** compared the configurations of two Linux hosts, discovered a mismatch between a non-default SSH listener and the Fail2ban nftables action, corrected the jail setting, and verified the effective action port. No end-to-end ban has yet been demonstrated.
+
+  **Evidence:** [Two-host SSH hardening and Fail2ban configuration audit (2026-11-18)](docs/evidence/ssh-hardening-fail2ban-2026-11-18.md)
 - **TryHackMe — Blue:** completed a purpose-built Windows exploitation exercise involving MS17-010, initial access and post-exploitation tasks in the training environment.
 - **Suspicious web-flow analysis:** inspected DNS, HTTP redirects, TLS behavior and browser API requests while distinguishing actual observations from unverified claims about data submission.
 
