@@ -1,13 +1,13 @@
 # TryHackMe learning log — verified scope and current evidence
 
-**Public training profile:** [tryhackme.com/p/moujahentin](https://tryhackme.com/p/moujahentin). The official profile URL was supplied by the account owner on 2026-11-18. Public profile statistics and the complete room list could not be independently retrieved in this documentation pass; therefore no totals or extra completion claims are inferred.
+**Public training profile:** [tryhackme.com/p/moujahentin](https://tryhackme.com/p/moujahentin). Screenshots supplied by the account owner on **2026-11-18** visibly show **Top 15%**, **Level 7 (Adept)**, **3,385 points**, **8 earned badges**, **43 on the room counter**, and a **21-day highest streak**. The Blue badge is among the unlocked achievements. See the [dated profile evidence](evidence/tryhackme-profile-2026-11-18.md). The complete named list of rooms is not provided by these screenshots.
 
 
 This page summarizes **hands-on learning activities discussed during lab sessions**. It is not a complete export of the TryHackMe account. Individual task completion, room completion and practical exploration are deliberately distinguished. Screenshots or a public profile link would be needed to validate the full list of completed rooms and earned badges.
 
 | Lab / subject | What was practiced | Evidence-backed status |
 |---|---|---|
-| **Blue / MS17-010** | Windows reconnaissance, EternalBlue exploitation, a Meterpreter session and an observed `NT AUTHORITY\\SYSTEM` context | **Demonstrated during the training lab**; does not independently verify the room's official completion badge |
+| **Blue / MS17-010** | Windows reconnaissance, EternalBlue exploitation, a Meterpreter session and an observed `NT AUTHORITY\\SYSTEM` context | **Blue badge now verified in supplied official-profile screenshot**; lab activity also documented |
 | **Active Directory fundamentals** | Organizational Units, delegation, resetting passwords, Group Policy Objects and SYSVOL | **Relevant room tasks completed** during the training session; official room-completion status not independently checked |
 | **Windows administration / privilege lab** | Local Administrators group checks and locating an exercise flag in a Windows lab | **Objective worked through**; precise room name and official completion status not documented |
 | **Telnet and web-server investigation** | Working with a Telnet/web-server exercise, observing an HTTP service reporting `lighttpd/1.4.63` | **Activity attempted**; final flag retrieval not confirmed |
