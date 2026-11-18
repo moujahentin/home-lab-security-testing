@@ -66,6 +66,10 @@ For operational reporting, genuine failures should be preserved rather than eras
 
 *Screenshot from a running deployment. The browser URL and a private host alias have been removed before publication. Green status and 100% figures describe the displayed snapshot/window only, not an uptime SLA.*
 
+## Scheduled automation evidence
+
+A [dated, sanitized systemd timer audit](evidence/systemd-automation-audit-2026-11-18.md) captures the one-minute background-worker checks, the external host heartbeat schedule, and both enabled backup timers. It distinguishes scheduled jobs from application-level and recovery verification.
+
 ## What I verified
 
 - The Uptime Kuma process could start via systemd and serve its interface.
