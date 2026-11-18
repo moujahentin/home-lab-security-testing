@@ -60,7 +60,7 @@ Repurposed an ARM-based RK322x device as a lightweight, always-on service node, 
 - AdGuard Home for DNS filtering on selected private-network clients.
 - Samba, SSH and dnsmasq services on the Ubuntu Server.
 - systemd management of persistent and on-demand services.
-- SSH hardening and a Fail2ban jail, with controlled verification of blocking behavior.
+- SSH hardening and a configured Fail2ban SSH jail; verified service/jail configuration, with end-to-end ban testing still to be documented.
 
 **What this demonstrates:** working with actual hardware constraints, understanding services beyond installation, debugging connectivity and validating security controls.
 
@@ -126,7 +126,7 @@ Used **Bettercap** for local discovery and target-scoped ARP-spoofing experiment
 
 ### 06 — Defensive testing and security investigations
 
-- **SSH / Fail2ban:** hardened the Armbian SSH service, generated controlled failed logins and verified the resulting detection/ban behavior.
+- **SSH / Fail2ban:** hardened SSH settings and verified the Fail2ban SSH jail is enabled; controlled failed logins have been observed in lab logs, but a confirmed Fail2ban ban has not yet been evidenced.
 - **TryHackMe — Blue:** completed a purpose-built Windows exploitation exercise involving MS17-010, initial access and post-exploitation tasks in the training environment.
 - **Suspicious web-flow analysis:** inspected DNS, HTTP redirects, TLS behavior and browser API requests while distinguishing actual observations from unverified claims about data submission.
 
