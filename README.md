@@ -104,6 +104,8 @@ Built scheduled backup workflows for selected stateful workloads on the ARM node
 
 **Case study:** [Backups and recovery readiness](docs/backups-and-recovery.md)
 
+**Execution evidence:** [Redacted successful SQLite backup and remote comparison (2026-11-18)](docs/evidence/uptime-kuma-backup-verification-2026-11-18.md)
+
 ### 04 — Authorized network reconnaissance and SMB analysis
 
 Used **Kali Linux, Nmap and enum4linux** to enumerate an intentionally configured Ubuntu/Samba lab target.
