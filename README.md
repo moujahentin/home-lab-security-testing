@@ -191,9 +191,13 @@ These items are **planned**, not represented as completed:
 - [ ] Expand structured write-ups as new TryHackMe and lab exercises are completed.
 - [ ] Maintain a separate private inventory of hosts, exact settings and recovery procedures.
 
-## TryHackMe profile
+## TryHackMe profile — screenshot-verified snapshot (2026-11-18)
 
-[TryHackMe — moujahentin](https://tryhackme.com/p/moujahentin) — public learning profile. Training notes in this repository describe observed exercises; room completion counts, badges and ranking are not claimed here until independently verified against the profile.
+[TryHackMe — moujahentin](https://tryhackme.com/p/moujahentin) · **Top 15%** · **Level 7 (Adept)** · **3,385 points** · **8 earned badges** · **43 shown on the room counter** · **21-day highest streak**.
+
+These are dated values transcribed from profile/dashboard screenshots supplied by the account owner, **not live API data**. The eight visible badges include **Blue**, **OWASP Top 10**, **Cyber Ready** and **cat linux.txt**. The full list of individual completed-room names has not yet been supplied.
+
+**[Profile achievements and evidence limitations](docs/evidence/tryhackme-profile-2026-11-18.md)** · [Training activity log](docs/tryhackme-learning.md)
 
 ## Related public work
 
