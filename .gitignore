@@ -1,0 +1,31 @@
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+
+# State, databases and backup archives
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.bak
+*.tar.gz
+*.tgz
+*.zip
+
+# Common local artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.DS_Store
+
+# NOTE: A .gitignore file is not a substitute for reviewing staged files
+# or rotating any accidentally committed secret.
