@@ -104,7 +104,7 @@ Built scheduled backup workflows for selected stateful workloads on the ARM node
 
 **Case study:** [Backups and recovery readiness](docs/backups-and-recovery.md)
 
-**Execution evidence:** [Redacted successful SQLite backup and remote comparison (2026-11-18)](docs/evidence/uptime-kuma-backup-verification-2026-11-18.md)
+**Execution evidence:** [Redacted successful SQLite backup and remote comparison (2026-11-18)](docs/evidence/uptime-kuma-backup-verification-2026-11-18.md) · [systemd timer automation audit (2026-11-18)](docs/evidence/systemd-automation-audit-2026-11-18.md)
 
 ### 04 — Authorized network reconnaissance and SMB analysis
 
